@@ -1,75 +1,187 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chi siamo - CRI Guardistallo e Casale Marittimo</title>
-    <!-- FAVICON & APP ICON -->
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/favicon.png">
-    <meta name="theme-color" content="#c1121f">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi siamo - CRI Guardistallo e Casale Marittimo</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- NAVBAR (uguale a index) -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="img/logo-cri.svg" alt="Logo CRI" width="70" class="me-2">
-                <span class="fw-bold text-danger">Croce Rossa Italiana<br><small class="text-dark">Comitato di
-                        Guardistallo e Casale Marittimo ODV</small></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-nowrap">
-                    <li class="nav-item"><a class="nav-link" href="chi-siamo.html">Chi siamo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="attivita.html">Attività</a></li>
-                    <li class="nav-item"><a class="nav-link" href="diventa-volontario.html">Diventa Volontario</a></li>
-                    <li class="nav-item"><a class="nav-link" href="prenota-servizio.html">Prenota un Servizio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nostri-corsi.html">Corsi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sostienici.html">Sostienici</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- HEADER SEMPLICE -->
-    <section class="pt-5" style="margin-top:80px;">
-        <div class="container">
-            <h1 class="mb-3">Chi siamo</h1>
-            <p class="lead">Breve presentazione del Comitato, missione CRI e riferimenti ai 7 Principi.</p>
-            <hr>
-            <div class="row g-4">
-                <div class="col-md-4"><a class="btn btn-outline-danger w-100" href="storia.html"><i
-                            class="fa-solid fa-book-open me-2"></i>Storia</a></div>
-                <div class="col-md-4"><a class="btn btn-outline-danger w-100" href="persone.html"><i
-                            class="fa-solid fa-users me-2"></i>Persone</a></div>
-                <div class="col-md-4"><a class="btn btn-outline-danger w-100" href="mezzi.html"><i
-                            class="fa-solid fa-van-shuttle me-2"></i>Mezzi</a></div>
-            </div>
-        </div>
-    </section>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo-cri.svg" alt="Logo CRI" width="70" class="me-2">
+        <span class="fw-bold text-danger">Croce Rossa Italiana<br>
+          <small class="text-dark">Comitato di Guardistallo e Casale Marittimo ODV</small>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-nowrap">
+          <li class="nav-item"><a class="nav-link active" href="chi-siamo.html">Chi siamo</a></li>
+          <li class="nav-item"><a class="nav-link" href="attivita.html">Attività</a></li>
+          <li class="nav-item"><a class="nav-link" href="diventa-volontario.html">Diventa Volontario</a></li>
+          <li class="nav-item"><a class="nav-link" href="prenota-servizio.html">Prenota un Servizio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nostri-corsi.html">Corsi</a></li>
+          <li class="nav-item"><a class="nav-link" href="sostienici.html">Sostienici</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <footer class="bg-light text-center text-muted py-4 mt-5">
-        <div class="container">
-            <p class="mb-1">&copy; 2025 Croce Rossa Italiana - Comitato di Guardistallo e Casale Marittimo</p>
-            <p class="mb-0"><i class="fas fa-envelope"></i> info@criguardistallo.it | <i class="fas fa-phone"></i> +39
-                000 000 0000</p>
-        </div>
-    </footer>
+  <!-- HEADER -->
+  <section class="pt-5" style="margin-top:80px;">
+    <div class="container">
+      <h1 class="mb-3">Chi siamo</h1>
+      <p class="lead text-muted">
+        Il Comitato di Guardistallo e Casale Marittimo è una delle realtà storiche della Croce Rossa Italiana in Toscana.
+        Dal 1993 operiamo con passione per la salute, la solidarietà e il benessere della nostra comunità.
+      </p>
+      <hr>
+    </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+  <!-- IL COMITATO -->
+  <section class="py-4">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-7">
+          <h2 class="h4 mb-3"><i class="fa-solid fa-circle-info text-danger me-2"></i>Il Comitato</h2>
+          <p>
+            Il Comitato di Guardistallo e Casale Marittimo ODV nasce nel 1993 e oggi conta <strong>oltre 470 soci</strong>, di cui
+            circa <strong>80 volontari attivi</strong>. Nel solo 2017 sono stati effettuati <strong>1.770 servizi</strong> tra sanitari e sociali.
+          </p>
+          <p>
+            L’attività si è ampliata nel tempo: dal soccorso sanitario con ambulanza, per ricoveri e dimissioni ospedaliere,
+            fino all’assistenza sociale, alla protezione civile e all’antincendio boschivo.
+          </p>
+          <p>
+            Dal 2017, a seguito della riorganizzazione del servizio 118, il Comitato copre anche gli interventi in emergenza
+            nei comuni di <strong>Montescudaio</strong> e <strong>Riparbella</strong>.
+            Le richieste di trasporto provengono sempre più spesso dagli ospedali di Pisa, Livorno e anche di altre regioni.
+          </p>
+          <p>
+            Nei primi mesi del 2018 si contano più di <strong>300 servizi</strong> in partenza da Guardistallo,
+            <strong>150</strong> da Casale M.mo e <strong>54</strong> da Montescudaio.
+            Solo una parte dei trasporti è rimborsata dal Servizio Sanitario Nazionale.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img src="img/comitato-guardistallo.jpg" alt="Sede CRI Guardistallo" class="img-fluid rounded-4 shadow-sm">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE GIOVANI -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="h4 mb-3 text-danger"><i class="fa-solid fa-user-graduate me-2"></i>I Giovani</h2>
+      <p>
+        La Croce Rossa investe molto sui giovani e li responsabilizza: gli under 32 partecipano a tutte le attività
+        sociali e hanno posti garantiti negli organi direttivi.
+        Sono protagonisti nella lotta al disagio giovanile, nella promozione di stili di vita sani e nel rispetto dei
+        <em>Sette Principi Fondamentali</em> del Movimento.
+      </p>
+      <p>
+        Nel 2017 il Comitato ha organizzato <strong>4 corsi professionalizzanti</strong> (AIB e TSSA) e numerose attività di
+        formazione e volontariato giovanile, anche in collaborazione con OXFAM.
+      </p>
+    </div>
+  </section>
+
+  <!-- EMERGENZE -->
+  <section class="py-4">
+    <div class="container">
+      <h2 class="h4 mb-3 text-danger"><i class="fa-solid fa-triangle-exclamation me-2"></i>Emergenze e Protezione Civile</h2>
+      <p>
+        I volontari del Comitato hanno prestato servizio in occasione dei principali terremoti in Italia
+        (Umbria, Abruzzo, Marche) e in emergenze regionali come alluvioni e incendi.
+        In convenzione con i Comuni di Guardistallo e Casale Marittimo è attivo ogni estate
+        un servizio di <strong>pattugliamento antincendio</strong>, con decine di interventi ogni anno.
+      </p>
+      <p>
+        Il 2017 ha visto ben <strong>21 incendi</strong> gestiti dalle nostre squadre, impegnate sul territorio in collaborazione
+        con la Protezione Civile regionale.
+      </p>
+    </div>
+  </section>
+
+  <!-- SVILUPPO -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="h4 mb-3 text-danger"><i class="fa-solid fa-seedling me-2"></i>Sviluppo e crescita</h2>
+      <p>
+        Il 2017 è stato un anno di svolta per il Comitato, che ha:
+      </p>
+      <ul>
+        <li>Raggiunto numeri record nei servizi svolti.</li>
+        <li>Innovato il proprio modo di operare, entrando nel servizio di emergenza 118.</li>
+        <li>Acquistato un terreno e costruito un nuovo <strong>autoparco</strong>.</li>
+        <li>Avviato collaborazioni con enti e associazioni come <strong>OXFAM</strong>.</li>
+      </ul>
+      <p>
+        Tutto questo è stato possibile grazie all’impegno dei volontari, alla collaborazione con le amministrazioni locali
+        e al sostegno dei cittadini di Guardistallo, Casale Marittimo, Montescudaio e dintorni.
+      </p>
+    </div>
+  </section>
+
+  <!-- SUPPORTO FAMILIARE -->
+  <section class="py-4">
+    <div class="container">
+      <div class="p-4 bg-white rounded-4 shadow-sm border">
+        <div class="d-flex align-items-start gap-3">
+          <div class="feature-icon flex-shrink-0" style="background:#f8d7da;">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <div>
+            <h2 class="h5 mb-2 text-danger">Supporto familiare</h2>
+            <blockquote class="mb-3" style="border-left:4px solid #e30613;padding-left:12px;">
+              <strong>IL SUPPORTO FAMILIARE</strong> scatta quando L'ALTRO ha proprio bisogno di AIUTO per ciò che normalmente si fa nell'andamento di vita familiare.
+              La CRI prende in carico famiglie bisognose e le accompagna nella loro quotidianità.
+              Mantiene utili rapporti con le ISTITUZIONI per favorire un corretto intervento.
+            </blockquote>
+            <p class="text-muted mb-0">Il progetto si rivolge a persone o nuclei familiari in momentanea difficoltà, offrendo ascolto,
+              assistenza e orientamento verso i servizi sociali e sanitari del territorio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATTI -->
+  <section class="pb-5">
+    <div class="container text-center">
+      <h2 class="h4 mb-3">Contattaci</h2>
+      <p class="text-muted mb-1">📍 Via della Chiesa, 9 – Guardistallo (PI)</p>
+      <p class="text-muted mb-1">☎️ 334 1217894 (Guardistallo) – 366 1442798 (Casale M.mo)</p>
+      <p class="text-muted mb-3">📧 <a href="mailto:guardistallocasalemarittimo@cri.it" class="link-danger">guardistallocasalemarittimo@cri.it</a></p>
+      <a href="https://www.facebook.com/criguardistallocasalemarittimo" target="_blank" class="btn btn-outline-danger">
+        <i class="fa-brands fa-facebook me-2"></i>Seguici su Facebook
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-light text-center text-muted py-4 mt-3">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Croce Rossa Italiana - Comitato di Guardistallo e Casale Marittimo</p>
+      <p class="mb-0"><i class="fas fa-envelope"></i> guardistallocasalemarittimo@cri.it |
+        <i class="fas fa-phone"></i> 334 1217894 / 366 1442798
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
